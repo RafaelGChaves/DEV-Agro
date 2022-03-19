@@ -1,0 +1,92 @@
+
+
+    --- Teste endpoint n.1
+
+            http://localhost:8080/empresas
+
+    --- Teste endpoint n.2
+
+            http://localhost:8080/fazendas/empresa/{id}
+
+    --- Teste endpoint n.3
+
+            http://localhost:8080/fazendas/empresa/quantidade/{id}}
+
+    --- Teste endpoint n.4
+
+            http://localhost:8080/fazendas/colheita/{id}
+
+    --- Teste endpoint n.5
+
+            http://localhost:8080/fazendas/acrescentaEst/{id}
+
+                        body {
+                            "estoqueGrao" : 500
+                        }
+
+    --- Teste endpoint n.6
+
+            http://localhost:8080/fazendas/decrementaEst/{id}
+
+                        body {
+                            "estoqueGrao" : 500
+                        }
+
+
+    --- Teste endpoint n.7
+
+            http://localhost:8080/graos/empresa/{id}
+
+    --- Teste endpoint n.8
+
+            http://localhost:8080/fazendas/estoque/{id}
+
+    --- Teste endpoint n.9
+
+            http://localhost:8080/funcionarios/empresa/{id}
+
+    --- Teste endpoint n.10
+
+            http://localhost:8080/funcionarios/empresa/quantidade/{id}
+
+    --- Teste Inserção de Empresas
+    {
+        "nome": "Conglomerado do Anel",
+        "cnpj": "86.039.334/0001-94",
+        "endereco": "Av. do Senhor, 2000, Terra Média"
+    }
+
+    --- Teste Inserção de Funcionários
+    {
+        "nome": "Gimli",
+        "sobrenome" : "Filho de Glóin",
+        "cpf": "524.060.390-13",
+        "endereco" : "Escadaria de Balin, 333 - subsolo, Moria",
+        "telefone" : "(65) 965533981",
+        "sexo" : 1,
+        "dataNascimento" : "30-04-1985",
+        "dataContratacao" : "22-07-2001",
+        "empresa" : {
+            "id" : 1
+            }
+    }
+
+    --- Teste Inserção de Grãos
+    {
+        "nome": "Cevada",
+        "tempoColheita": 90
+    }
+
+    --- Teste Inserção de Fazendas
+    {
+        "nome": "Chácara do Balrog",
+        "endereco": "Noroeste da Terra Média, s/n, Moria",
+        "estoqueGrao": 500.5,
+        "empresa": {
+            "id": 2
+        },
+        "grao": {
+            "id": 4
+        }
+    }
+
