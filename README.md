@@ -6,16 +6,16 @@ Segue roteiro proposto contendo:
 
 - A API deve possibilitar o cadastro de Empresas, Fazendas, Funcionários, Grãos.
 
-- O cadastro de empresas deve possibilitar o registro de nome, CNPJ e endereço.
-Cada empresa pode ter uma ou mais propriedades rurais associadas (fazendas).
-Cada empresa pode ter um ou mais funcionários associados.
-Cada empresa pode ter um ou mais grãos associados.
-O CNPJ deve ser validado para estar no formato: XX.XXX.XXX/XXXX-XX.
+- O cadastro de empresas deve possibilitar o registro de nome, CNPJ e endereço.<br />
+Cada empresa pode ter uma ou mais propriedades rurais associadas (fazendas).<br />
+Cada empresa pode ter um ou mais funcionários associados.<br />
+Cada empresa pode ter um ou mais grãos associados.<br />
+O CNPJ deve ser validado para estar no formato: XX.XXX.XXX/XXXX-XX.<br />
 
-- O cadastro de fazendas deve possibilitar o registro de nome, endereço, qual grão é produzido naquela propriedade, qual o estoque inicial daquele grão naquela fazenda (em kg), e qual empresa é proprietária da fazenda.
-Cada fazenda pode ter apenas um grão associado.
-Cada fazenda pode estar associada a apenas uma empresa.
-Cada fazenda deve possuir um atributo para guardar a data da última colheita.
+- O cadastro de fazendas deve possibilitar o registro de nome, endereço, qual grão é produzido naquela propriedade, qual o estoque inicial daquele grão naquela fazenda (em kg), e qual empresa é proprietária da fazenda.<br />
+Cada fazenda pode ter apenas um grão associado.<br />
+Cada fazenda pode estar associada a apenas uma empresa.<br />
+Cada fazenda deve possuir um atributo para guardar a data da última colheita.<br />
 
 - O cadastro de grãos deve possibilitar o registro de nome, empresa e tempo médio de colheita, em quantidade de dias.
 
